@@ -7,7 +7,7 @@ var app = express();
 app.set('port', process.env.PORT || 5000); 
 
 //Process the body of requests
-app.use(bodyparser.urlencoded{extended: false});
+app.use(bodyparser.urlencoded({extended: false});
 app.use(bodyparser.json());
 
 //Routes
